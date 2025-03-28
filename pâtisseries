@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="menu.html"   method="get">
+	<h3> Les informations du client :   </h3>
+   <label for="in1">Nom:</label>
+  <input type="Nom" name="em" id="in1" placeholder="entrer votre nom"><br>
+
+<br>
+<br>
+  <label for="in2">Prenom:</label>
+  <input type="Prenom" name="em" id="in2" placeholder="entrer votre prenom"><br>
+  <br>
+  <br>
+
+  <label for="in3">Mode passe:</label>
+  <input type="Mode passe" name="pass" id="in3" placeholder="code du pâtisseries"><br>
+  <br>
+  <br>
+
+  <button type="submit">entrer</button>
+  <button type="reset">sortir</button>
+    </form>
+</body>
+</html>
